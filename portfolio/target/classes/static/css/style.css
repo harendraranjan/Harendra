@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Poppins:wght@400;700&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Source Code Pro', monospace; */
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    background-color: rgb(74, 74, 83);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(156, 109, 109);
+    font-size: 1.2rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+
+}
+.firstSection >div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 1.5rem;
+    margin: 70px 0;
+    justify-content: center;
+}
+.rightSection img{
+    width: 80%;
+}
+.purple{
+    color: rgb(156, 156, 196);
+}
+.text-gray{
+    color: green;
+}
+#element{
+    color: rgb(98, 98, 200);
+}
+main hr{
+    border: 0;
+    margin: 2px 98px;
+    border: 0;
+    background: #3c445a;
+    height: 0.5px;
+}
+.SecondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.SecondSection h1{
+    font-size: 1.8rem;
+}
+.SecondSection{
+    max-width: 80vw;
+    margin: 0 auto;
+    
+}
+.SecondSection .LineUnderSkill{
+    display: flex;
+    background: #364366;
+    height: 0.5px;
+    width: 80vw;
+    margin: 56px 0;
+    display: left;
+    
+}
+.SecondSection .vertical{
+    background: #91949f;
+    height: 50px;
+    width: 1px;
+    margin: 0 100px; 
+}
+.topImg{
+    top: -30px;
+    position: relative;
+    width: 24px;
+    left: -12px;
+}
+.verticalTitle{
+    width: 130px;
+    font-size: 13px;
+}
+.verticalDecs{
+    width: 130px;
+    font-size: 10px;
+}
+footer{
+    background-color:  #2d2f2e;
+    height: 230px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 123px;
+}
+.footer li{
+    list-style: none;
+    
+}
+
+    

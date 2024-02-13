@@ -1,0 +1,4 @@
+com\portfolio\PortfolioApplication.class
+com\portfolio\controller\HomeController.class
+com\portfolio\entity\contact.class
+com\portfolio\Dao\UserReposetry.class
